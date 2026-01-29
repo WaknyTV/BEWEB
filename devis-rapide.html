@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devis rapide BE WEB | Demande express</title>
+  <meta name="description" content="Demande express pour un site web et une visibilité Google rentable à Tournai." />
+  <meta property="og:title" content="Devis rapide BE WEB" />
+  <meta property="og:description" content="Choisissez un pack et recevez une proposition claire sous 48h." />
+  <meta property="og:image" content="assets/images/global/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://be-web.be/devis-rapide" />
+  <link rel="icon" href="assets/images/global/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "BE WEB",
+      "image": "https://be-web.be/assets/images/global/og-image.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenue De Maire 44",
+        "addressLocality": "Tournai",
+        "postalCode": "7500",
+        "addressCountry": "BE"
+      },
+      "telephone": "+32 493 35 05 44",
+      "email": "info@be-web.be",
+      "url": "https://be-web.be"
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html">
+        <img src="assets/images/global/logo.svg" alt="Logo BE WEB" height="40" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="avis.html">Avis</a>
+        <a href="apropos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="devis-rapide.html">Devis rapide</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Devis rapide en 2 minutes</h1>
+          <p>Choisissez un pack et recevez une proposition claire pour votre visibilité locale.</p>
+        </div>
+        <div>
+          <img class="section-image" src="assets/images/home/proof-1.jpg" alt="Devis BE WEB" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>Demande express</h2>
+          <p class="lead">Remplissez les infos essentielles pour un devis rapide.</p>
+          <form class="form">
+            <input type="text" name="nom" placeholder="Nom" required />
+            <input type="text" name="societe" placeholder="Société" />
+            <input type="tel" name="telephone" placeholder="Téléphone" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <select name="pack" required>
+              <option value="">Choisir un pack</option>
+              <option value="essentiel">Site Essentiel (one page)</option>
+              <option value="complet">Site Complet (pages + portfolio)</option>
+              <option value="visibilite">Visibilité Google (SEO local + pages villes)</option>
+            </select>
+            <textarea name="message" placeholder="Objectif principal"></textarea>
+            <button class="btn btn-primary" type="submit">Recevoir mon devis</button>
+          </form>
+        </div>
+        <div>
+          <div class="pack">
+            <h3>Site Essentiel</h3>
+            <p>Idéal pour démarrer vite.</p>
+            <ul>
+              <li>One page conversion</li>
+              <li>Design premium</li>
+              <li>Formulaire devis</li>
+            </ul>
+          </div>
+          <div class="pack" style="margin-top: 20px;">
+            <h3>Site Complet</h3>
+            <p>Pour structurer vos services.</p>
+            <ul>
+              <li>Pages services dédiées</li>
+              <li>Portfolio réalisations</li>
+              <li>Optimisation SEO locale</li>
+            </ul>
+          </div>
+          <div class="pack" style="margin-top: 20px;">
+            <h3>Visibilité Google</h3>
+            <p>Pour dominer localement.</p>
+            <ul>
+              <li>SEO par ville</li>
+              <li>Google Business optimisé</li>
+              <li>Suivi mensuel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/images/global/logo-dark.svg" alt="Logo BE WEB" height="34" />
+        <p>Agence web premium pour indépendants du bâtiment à Tournai.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <p><a href="services.html">Services</a></p>
+        <p><a href="realisations.html">Réalisations</a></p>
+        <p><a href="avis.html">Avis</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Coordonnées</h4>
+        <p>Avenue De Maire 44, 7500 Tournai</p>
+        <p>+32 493 35 05 44</p>
+        <p>info@be-web.be</p>
+        <p>be-web.be</p>
+      </div>
+      <div>
+        <h4>Mentions légales</h4>
+        <p>BE WEB • Tournai, Belgique</p>
+        <p>TVA non communiquée</p>
+        <p>© <span id="year"></span> Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
